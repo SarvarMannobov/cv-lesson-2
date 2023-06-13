@@ -1,0 +1,20 @@
+body {
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 1550px;
+    
+}
+
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}

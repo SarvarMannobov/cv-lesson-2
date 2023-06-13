@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
     <title>KUN UZ - qa'buldan o'tish</title>
 </head>
 <body>
+
     <center><h1>KUN.UZ qa'buldan o'tish</h1>
-    <form action="">
+        <img src="kunuz.jpeg" alt="" width="150">
+    <form action="">    
         <h3>Ism va familiya:<h3>
             <input type="text" required minlength="3" maxlength="25" placeholder="Ism va familiya">
             <h3>Raqamingizni kiriting:</h3>
-        <input type="number" placeholder="(+998) xxx-xx-xx" maxlength="10" minlength="3">
+        <input type="number" required minlength="3" maxlength="13"  placeholder="(+998) xxx-xx-xx" maxlength="10" minlength="3">
         <h3>Turar joyingizni kiriting:</h3>
         <select name="" id="">
             <option value="TASH">TASHKENT</option>
@@ -32,16 +39,17 @@
 
         <h3>Jinsingizni tanlang:</h3>
         <input type="radio" name="gender" id="male">
-        <label for="male">Erkak</label>
+        <label for="male" style="color: white;">Erkak</label>
         <input type="radio" name="gender" id="female">
-        <label for="female">Ayol</label>
+        <label for="female" style="color: white;">Ayol</label>
         <br>
         <h3>Passportni kiriting:</h3>
         <input type="file">
         <br>
+        <br><br>
         <input type="checkbox" name="" id="check">
         
-        <label for="check">Men shartlarni o'qidim va qa'bul qildim.</label>
+        <label for="check" style="color: white; font-size: 20px; font-family: Arial, Helvetica, sans-serif;">Men shartlarni o'qidim va qa'bul qildim.</label>
         
          <br><br><br>
 
@@ -50,8 +58,9 @@
 
 
 
-        <input type="submit">
+        <input type="submit" style="font-size: 15px;">
     </form>
 </center>
+</div>
 </body>
 </html>
